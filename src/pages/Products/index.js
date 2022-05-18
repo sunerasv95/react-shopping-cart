@@ -160,7 +160,7 @@ const Products = () => {
             <div className="products__right_side">
                 {
                     isLoading 
-                        ? <span>Loading...</span> 
+                        ? <div style={{ display: 'flex', margin: 'auto' , width: '100%'}}><span style={{ color: 'black'}}>Loading...</span> </div>
                         : <>
                              <div className="products__heading">
                                 <div className="products__count_lbl">
