@@ -1,5 +1,4 @@
-import Badge from "../../ui/Badge";
-import Button from "../../ui/Button";
+import {Badge, Button} from "../../ui";
 import "./product-list-item.css";
 
 const ProductListItem = ({
