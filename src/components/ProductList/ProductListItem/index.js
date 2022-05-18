@@ -12,7 +12,7 @@ const ProductListItem = ({
 }) => {
   return (
     <div className="product__list_item">
-        {tag !== "" ? <Badge>{tag}</Badge> : ''}
+        {tag !== "" ? <div style={{ width: '100%' , display: 'flex', justifyContent: 'flex-end'}}><Badge>{tag}</Badge></div> : ''}
         <img src={imageUrl} alt="product-img-here" />
         <p className="product__title">{title}</p>
         <span className="product__price">$<span>{price}</span></span>
