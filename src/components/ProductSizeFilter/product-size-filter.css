@@ -1,0 +1,44 @@
+.filters{
+    padding:1.5rem 1rem;
+}
+
+.filters__heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters__heading p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.filters__heading button{
+    border: 0;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+}
+
+.filters__list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.filters__btn{
+    padding: .725rem;
+    margin-right: .5rem;
+    margin-top: .2rem;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.filters__btn:hover, .filters__btn_active{
+    background-color: black;
+    color: white;
+}

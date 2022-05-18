@@ -1,0 +1,63 @@
+li {
+    width: 100%;
+}
+
+.cart__drawer_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    /* border: 1px solid black; */
+    /* box-shadow: 2px 4px 8px gray;
+    border-radius: 5px; */
+    border-bottom: 1px solid gainsboro;
+    
+} 
+
+.cart__drawer_item img{
+    width: 20%;
+    height: auto;
+}
+
+.cart__drawer_item button {
+    width: 10%;
+    padding: .5rem 0;
+}
+
+.cart__drawer_item_details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    padding: 0 0.825rem;
+}
+
+.cart__drawer_item_details p {
+    color: white;
+    margin: .2rem;
+}
+
+.cart__drawer_item_details button {
+    background: transparent;
+    color: red;
+
+}
+
+.cart__drawer_item_name{
+    font-size: .875rem;
+
+}
+
+.cart__drawer_item_desc{
+    font-size: .825rem;
+}
+
+.cart__drawer_item_qty{
+    font-size: .825rem;
+}
+
+.cart__drawer_item_subt span{
+    color: goldenrod;
+    font-size: 1rem;
+    padding: 0 .1rem;
+}

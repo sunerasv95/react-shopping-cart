@@ -1,0 +1,43 @@
+.types{
+    padding:1.5rem 1rem;
+
+}
+
+.types__heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.types__heading p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.types__heading button{
+    border: 0;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+}
+
+.types__list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.types__list button{
+    padding: .725rem;
+    margin-right: .5rem;
+    margin-top: .2rem;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.types__list button:hover{
+    background-color: black;
+    color: white;
+}

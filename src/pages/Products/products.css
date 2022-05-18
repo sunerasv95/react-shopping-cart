@@ -1,0 +1,28 @@
+.products{
+    padding: 2rem 1.5rem;
+    display: flex;
+}
+
+.products__left_side{
+    width: 20%;
+}
+
+.products__right_side{
+    width: 80%;
+}
+
+.products__heading{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem .875rem;
+}
+
+.products__count_lbl span{
+    font-size: .825rem;
+    font-weight: 500;
+    color: black;
+}
+
+.products__order_opt{
+
+}

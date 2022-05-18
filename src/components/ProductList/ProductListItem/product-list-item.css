@@ -1,0 +1,38 @@
+.product__list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    margin-right: .2rem;
+    margin-bottom: 2rem;
+    height: 430px;
+    width: 270px;
+    background-color: 'yellow';
+    border: 1px gray solid;
+    color: black
+}
+
+.product__list_item img{
+    width: 200px;
+    height: 300px;
+}
+
+.product__list_item img{
+    width: 200px;
+    height: 300px;
+}
+
+.product__title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product__price{
+    margin-bottom: 7px;
+    color: black;
+}
+
+.product__price p, .product__price span{
+    color: black;
+    padding: .2rem 0;
+}
